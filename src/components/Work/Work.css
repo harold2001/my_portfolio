@@ -1,0 +1,60 @@
+#h2-work {
+   font-size: 2.5rem;
+   color: white;
+   /* border-bottom: 2px solid #fff; */
+   text-align: center;
+   line-height: 4rem;
+}
+
+#h2-work > span {
+   border-bottom: 2px solid #fff;
+   padding: .5rem 1rem;
+}
+
+.img-work-project {
+   object-fit: cover;
+   width: 250px;
+}
+
+#p-work {
+   font-size: 1.2rem;
+   text-align: center;
+   color: #fff;
+   font-weight: 500;
+   margin: 0;
+   padding: 1rem 0;
+}
+
+#p-work > span {
+   color: transparent;
+}
+
+#button-show-work {
+   background-color: #303841;
+   padding: .6rem 1rem;
+   font-size: 1.2rem;
+   transition: all .5s;
+   color: white;
+   text-decoration: none;
+}
+
+#arrow-button {
+   position: relative;
+   transition: all .5s;
+}
+
+#button-show-work:hover {
+   background-color: #be3144;
+}
+
+#button-show-work:hover #arrow-button {
+   transform: translateX(2px);
+}
+
+@media screen and (min-width: 1400px) {
+   .img-work-project {
+      object-fit: cover;
+      width: 350px;
+      height: 200px;
+   }
+}

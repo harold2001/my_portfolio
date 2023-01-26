@@ -1,0 +1,29 @@
+.a-nav {
+   color: #fff;
+   font-family: sans-serif;
+   font-weight: 600;
+   font-size: 1.2rem;
+}
+
+.navbar-brand {
+   color: white;
+   font-family: sans-serif;
+   font-weight: 500;
+   font-size: 1.5rem;
+}
+
+.a-nav:hover {
+   color: #3e0f16;
+}
+
+#basic-addon1 {
+   font-size: 1.2rem;
+   font-weight: 500;
+   font-family: sans-serif;
+}
+
+#correo-nav {
+   font-size: 1rem;
+   font-weight: 500;
+   font-family: sans-serif;
+}
