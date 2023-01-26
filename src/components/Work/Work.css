@@ -6,6 +6,16 @@
    line-height: 4rem;
 }
 
+.arrow-work {
+   transition: all .3s;
+   font-size: 0;
+}
+
+#a-work-project:hover  .arrow-work {
+   font-size: 1.2rem;
+   color: #be3144;
+}
+
 #h2-work > span {
    border-bottom: 2px solid #fff;
    padding: .5rem 1rem;

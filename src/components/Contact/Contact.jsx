@@ -30,17 +30,11 @@ export default function Contact() {
           <Button text={"GitHub"} link={"https://github.com/harold2001"}>
             <AiFillGithub />
           </Button>
-          <Button text={"Send a mail"} link={"#"}>
-            <MdAlternateEmail />
-          </Button>
-          <Button text={"Call me"} link={"#"}>
-            <MdOutlinePhoneIphone />
-          </Button>
         </div>
       </div>
-      <footer style={{minHeight:"13vh", backgroundColor: "#303841"}} className="d-flex col-12 justify-content-center align-items-center gap-2 gap-md-5" id="footer-contact">
+      <footer style={{ minHeight: "13vh", backgroundColor: "#303841" }} className="d-flex col-12 justify-content-center align-items-center gap-2 gap-md-5" id="footer-contact">
         <p className="p-contact">** Este es mi primer portfolio, te reto que hagas uno mas bonito </p>
-        <p className="p-contact">&copy; Inspirado en el portfolio de FreeCodeCamp <FaFreeCodeCamp/></p>
+        <p className="p-contact">&copy; Inspirado en el portfolio de FreeCodeCamp <FaFreeCodeCamp /></p>
       </footer>
     </Fragment>
   )

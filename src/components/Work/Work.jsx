@@ -11,11 +11,11 @@ import calculator from "../../images/project_calculator.jpg";
 
 function ProjectElement({ link, imagen, text }) {
    return (
-      <a href={link} target="_blank" style={{backgroundColor: "#303841", textDecoration: "none"}}>
+      <a href={link} target="_blank" style={{backgroundColor: "#303841", textDecoration: "none"}} id="a-work-project">
          <div className="border border-3 col">
             <img className="col-12 img-work-project" src={imagen} alt="Proyecto" height="200"  />
-            <p id="p-work">
-               <span class="arrow-work|">&#60;</span>
+            <p id="p-work" className="d-flex justify-content-center align-items-center gap-3">
+               <span class="arrow-work">&#60;</span>
                {text}
                <span class="arrow-work">&#47;&#62;</span>
             </p>
@@ -35,11 +35,11 @@ export default function Work() {
             <ProjectElement link="https://harold2001.github.io/miniProjectLevel3/" imagen={todo} text="Multi Task App"/>
             <ProjectElement link="https://harold2001.github.io/finalProjectLevel2/" imagen={quiz} text="Quiz App"/>
             <ProjectElement link="https://harold2001.github.io/pokedex/" imagen={pokedex} text="Pokedex App"/>
-            <ProjectElement link="https://harold2001.github.io/finalProjectLevel1/" imagen={js} text="Landing Page JS"/>
             <ProjectElement link="https://harold2001.github.io/miniProjectLevel2/" imagen={calculator} text="Caculator App"/>
+            <ProjectElement link="https://harold2001.github.io/finalProjectLevel1/" imagen={js} text="Landing Page JS"/>
          </div>
          <div className="col-12 d-flex justify-content-center d-flex align-items-center">
-            <a href="#about" id="button-show-work">Show all <MdOutlineKeyboardArrowRight id="arrow-button"/> </a>
+            <a href="https://github.com/harold2001" target="_blank" id="button-show-work">Show all (GitHub) <MdOutlineKeyboardArrowRight id="arrow-button"/> </a>
          </div>
       </div>
    )
